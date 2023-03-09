@@ -1,0 +1,22 @@
+{
+  "name": "yoga-options",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && nodemon index.js",
+    "frontend": "cd frontend && grunt",
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenlisawen/yoga-options.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wenlisawen/yoga-options/issues"
+  },
+  "homepage": "https://github.com/wenlisawen/yoga-options.git",
+  "dependencies": {}
+}
