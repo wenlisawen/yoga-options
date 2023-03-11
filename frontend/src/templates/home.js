@@ -8,23 +8,20 @@ const Home = () => {
   return (
     <>
       <section id="showcase" className="py-16">
-        <div className="tw-container grid lg:grid-cols-2 place-items-center gap-x-32">
+        <div className="home-container grid lg:grid-cols-2 place-items-center gap-x-32">
           <article>
             <h1 className="tracking-wider font-bold text-4xl md:text-5xl">
               Yoga Options
             </h1>
-            <div className="icon centre">
-              <img
-                alt="icon"
-                src="../../src//icon.jpg"
-              />
+            <div className="icon">
+              <img alt="icon" src="image/logo_transparent.png" />
             </div>
-            <p className="mt-8 max-w-lg leading-loose ">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, at
-              sed omnis corporis doloremque possimus velit! Repudiandae nisi odit,
-              aperiam odio ducimus, obcaecati libero et quia tempora excepturi
-              quis alias?
-            </p>
+            <div className="home-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto,
+              at sed omnis corporis doloremque possimus velit! Repudiandae nisi
+              odit, aperiam odio ducimus, obcaecati libero et quia tempora
+              excepturi quis alias?
+            </div>
             <Button
               variant="light"
               className="btn text-center"
