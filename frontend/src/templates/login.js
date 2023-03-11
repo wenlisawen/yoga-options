@@ -11,12 +11,15 @@ export default function Login() {
     if (isAuthenticated) history.push("/");
   }, [isAuthenticated, history]);
 
-  if (isAuthenticated) {
+  if (!isAuthenticated) {
     return (
-      <Breadcrumbs>
-        <Link to="/">Home</Link>
-        Login
-      </Breadcrumbs>
+      <div className="login-container">
+        <div className="logo-container"></div>
+        <form>
+            <label>Username:</label>
+            <input name="username" type="input" className="px-2 py-1"/>
+        </form>
+      </div>
     );
   }
 
