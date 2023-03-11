@@ -70,6 +70,8 @@ app.post("/product", (req, res) => {
         stock: req.bock.stock || 0,
         category: req.body.category,
         description: req.body.description,
+        details: req.body.details,
+        colors: req.body.colors,
         user_id: currentUser.id,
       });
 
@@ -112,6 +114,8 @@ app.patch("/product/:id", (req, res) => {
         stock: req.bock.stock || product.stock,
         category: req.body.category || product.category,
         description: req.body.description || product.description,
+        details: req.body.details || product.details,
+        colors: req.body.colors || product.colors,
       };
       Product.updateOne({ _id: idParam }, updatedProduct)
         .then((result) => {
