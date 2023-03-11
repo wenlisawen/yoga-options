@@ -8,6 +8,8 @@ const productSchema = new mongoose.Schema({
   stock: Number,
   category: String,
   description: String,
+  details: String,
+  colors: Array,
   user_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "User",
