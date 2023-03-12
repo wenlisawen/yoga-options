@@ -19,7 +19,7 @@ function Content({ children }) {
 
   return (
     <>
-      <Navbar />
+      {window.location.pathname !== "/" && <Navbar />}
       <main>{children}</main>
       <Footer />
     </>
