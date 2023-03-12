@@ -2,6 +2,7 @@ import React, { createContext, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 import useFetch from "../hooks/useFetch";
 
+import CONFIG from "../config";
 const StoreContext = createContext(null);
 
 const StoreProvider = ({ children }) => {
@@ -16,9 +17,7 @@ const StoreProvider = ({ children }) => {
   // Store Grid
   const [sortByIndex, setSortByIndex] = useState(0);
 
-  const { response: products, error } = useFetch(
-    "https://course-api.com/react-store-products"
-  );
+  const { response: products, error } = useFetch(`${CONFIG.api_url_product}`);
 
   if (error) return "error....";
 

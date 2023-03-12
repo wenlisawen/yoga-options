@@ -17,9 +17,13 @@ function Content({ children }) {
   if (isLoading) return null;
   if (error) return "error...";
 
+  if (["/", "/login"].includes(window.location.pathname)) {
+    return <main>{children}</main>;
+  }
+
   return (
     <>
-      {window.location.pathname !== "/" && <Navbar />}
+      <Navbar />
       <main>{children}</main>
       <Footer />
     </>

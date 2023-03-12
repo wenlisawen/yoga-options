@@ -21,3 +21,77 @@ main,
 footer {
   flex-shrink: 0;
 }
+
+/* home page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../public/image/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  height: 100%;
+  align-items: stretch;
+  color: white;
+}
+
+.home-container h1 {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.home-container img {
+  width: 200px;
+  filter: invert(1);
+  margin-bottom: 4rem;
+}
+
+.home-container .home-description {
+  font-size: 1rem;
+  padding-bottom: 5%;
+  width: 70%;
+  align-self: center;
+}
+
+.home-container .btn {
+  width: 50%;
+  align-self: center;
+  margin-bottom: 15%;
+}
+
+/* Login page */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #cdefe3;
+  text-align: center;
+}
+
+.login-container img {
+  width: 200px;
+  padding-top: 2rem;
+  padding-bottom: 5%;
+}
+
+.login-container form {
+  width: 70%;
+  align-self: center;
+  position: relative;
+}
+
+.login-container form .form-label {
+  align-self: left;
+}
+
+.login-container button {
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.login-container button:last-child {
+  padding-bottom: 4rem;
+}
