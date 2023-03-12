@@ -5,7 +5,7 @@
     "description": "An apple mobile which is nothing like apple",
     "price": 549,
     "stock": 94,
-    "category": "smartphones",
+    "category": "accessories",
     "images": [
       "https://i.dummyjson.com/data/products/1/1.jpg",
       "https://i.dummyjson.com/data/products/1/2.jpg",
@@ -20,7 +20,7 @@
     "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
     "price": 899,
     "stock": 34,
-    "category": "smartphones",
+    "category": "accessories",
     "images": [
       "https://i.dummyjson.com/data/products/2/1.jpg",
       "https://i.dummyjson.com/data/products/2/2.jpg",
@@ -34,8 +34,10 @@
     "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
     "price": 1249,
     "stock": 36,
-    "category": "smartphones",
-    "images": ["https://i.dummyjson.com/data/products/3/1.jpg"]
+    "category": "accessories",
+    "images": [
+      "https://i.dummyjson.com/data/products/3/1.jpg"
+    ]
   },
   {
     "id": 4,
@@ -43,7 +45,7 @@
     "description": "OPPO F19 is officially announced on April 2021.",
     "price": 280,
     "stock": 123,
-    "category": "smartphones",
+    "category": "accessories",
     "images": [
       "https://i.dummyjson.com/data/products/4/1.jpg",
       "https://i.dummyjson.com/data/products/4/2.jpg",
@@ -58,7 +60,7 @@
     "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
     "price": 499,
     "stock": 32,
-    "category": "smartphones",
+    "category": "accessories",
     "images": [
       "https://i.dummyjson.com/data/products/5/1.jpg",
       "https://i.dummyjson.com/data/products/5/2.jpg",
@@ -71,7 +73,7 @@
     "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
     "price": 1749,
     "stock": 83,
-    "category": "laptops",
+    "category": "mats",
     "images": [
       "https://i.dummyjson.com/data/products/6/1.png",
       "https://i.dummyjson.com/data/products/6/2.jpg",
@@ -85,7 +87,7 @@
     "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
     "price": 1499,
     "stock": 50,
-    "category": "laptops",
+    "category": "mats",
     "images": [
       "https://i.dummyjson.com/data/products/7/1.jpg",
       "https://i.dummyjson.com/data/products/7/2.jpg",
@@ -99,7 +101,7 @@
     "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
     "price": 1499,
     "stock": 68,
-    "category": "laptops",
+    "category": "mats",
     "images": [
       "https://i.dummyjson.com/data/products/8/1.jpg",
       "https://i.dummyjson.com/data/products/8/2.jpg",
@@ -114,7 +116,7 @@
     "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
     "price": 1099,
     "stock": 96,
-    "category": "laptops",
+    "category": "mats",
     "images": [
       "https://i.dummyjson.com/data/products/9/1.jpg",
       "https://i.dummyjson.com/data/products/9/2.png",
@@ -129,7 +131,7 @@
     "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
     "price": 1099,
     "stock": 89,
-    "category": "laptops",
+    "category": "mats",
     "images": [
       "https://i.dummyjson.com/data/products/10/1.jpg",
       "https://i.dummyjson.com/data/products/10/2.jpg",
@@ -143,7 +145,7 @@
     "description": "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
     "price": 13,
     "stock": 65,
-    "category": "fragrances",
+    "category": "props",
     "images": [
       "https://i.dummyjson.com/data/products/11/1.jpg",
       "https://i.dummyjson.com/data/products/11/2.jpg",
@@ -157,7 +159,7 @@
     "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
     "price": 40,
     "stock": 52,
-    "category": "fragrances",
+    "category": "props",
     "images": [
       "https://i.dummyjson.com/data/products/12/1.jpg",
       "https://i.dummyjson.com/data/products/12/2.jpg",
@@ -172,7 +174,7 @@
     "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
     "price": 13,
     "stock": 61,
-    "category": "fragrances",
+    "category": "props",
     "images": [
       "https://i.dummyjson.com/data/products/13/1.jpg",
       "https://i.dummyjson.com/data/products/13/2.png",
@@ -187,7 +189,7 @@
     "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
     "price": 120,
     "stock": 114,
-    "category": "fragrances",
+    "category": "props",
     "images": [
       "https://i.dummyjson.com/data/products/14/1.jpg",
       "https://i.dummyjson.com/data/products/14/2.jpg",
@@ -201,7 +203,7 @@
     "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
     "price": 30,
     "stock": 105,
-    "category": "fragrances",
+    "category": "props",
     "images": [
       "https://i.dummyjson.com/data/products/15/1.jpg",
       "https://i.dummyjson.com/data/products/15/2.jpg",
@@ -216,7 +218,7 @@
     "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
     "price": 19,
     "stock": 110,
-    "category": "skincare",
+    "category": "bolsters",
     "images": [
       "https://i.dummyjson.com/data/products/16/1.png",
       "https://i.dummyjson.com/data/products/16/2.webp",
@@ -231,7 +233,7 @@
     "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
     "price": 12,
     "stock": 78,
-    "category": "skincare",
+    "category": "bolsters",
     "images": [
       "https://i.dummyjson.com/data/products/17/1.jpg",
       "https://i.dummyjson.com/data/products/17/2.jpg",
@@ -245,7 +247,7 @@
     "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
     "price": 40,
     "stock": 88,
-    "category": "skincare",
+    "category": "bolsters",
     "images": [
       "https://i.dummyjson.com/data/products/18/1.jpg",
       "https://i.dummyjson.com/data/products/18/2.jpg",
@@ -260,7 +262,7 @@
     "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
     "price": 46,
     "stock": 54,
-    "category": "skincare",
+    "category": "bolsters",
     "images": [
       "https://i.dummyjson.com/data/products/19/1.jpg",
       "https://i.dummyjson.com/data/products/19/2.jpg",
@@ -274,7 +276,7 @@
     "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
     "price": 70,
     "stock": 140,
-    "category": "skincare",
+    "category": "bolsters",
     "images": [
       "https://i.dummyjson.com/data/products/20/1.jpg",
       "https://i.dummyjson.com/data/products/20/2.jpg",
